@@ -1,5 +1,6 @@
 "use client"
 import { Inter } from '@next/font/google'
+import SubCard, { Card5 } from './(Card)/page'
 import Navb from './(navbar)/page'
 
 
@@ -9,7 +10,8 @@ export default function Home() {
   return (
     <div>
       <Navb/>
-      <h1>Hello World</h1>
+      <SubCard />
+      <Card5 />
     </div>
       )
 }
