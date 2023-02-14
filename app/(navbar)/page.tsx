@@ -9,9 +9,10 @@ export default function Navb() {
       <Navbar isBordered variant="floating">
         <Navbar.Content hideIn="xs" variant="highlight-rounded">
           <Navbar.Link href="#">Home </Navbar.Link>
-          <Navbar.Link href="#">About</Navbar.Link>
+          <Navbar.Link href="/about">About</Navbar.Link>
           <Navbar.Link href="#">Donate</Navbar.Link>
           <Navbar.Link href="#">Activities</Navbar.Link>
+          
         </Navbar.Content>
         <Navbar.Collapse>
           {collapseItems.map((item, index) => (

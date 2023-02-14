@@ -1,9 +1,7 @@
-// Next.js API route support: https://nextjs.org/docs/api-routes/introduction
-import type { NextApiRequest, NextApiResponse } from 'next'
+// This is your test secret API key.
 const stripe = require("stripe")(process.env.STRIPE_SECRET_KEY);
-type Data = {
-  name: string
-}
+
+
 
 export default async function handler(req:any, res:any) {
   const { amount } = req.body;

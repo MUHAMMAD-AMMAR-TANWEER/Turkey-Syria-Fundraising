@@ -1,6 +1,6 @@
 "use client"
 import { NextUIProvider } from '@nextui-org/react';
-
+import Navb from './(navbar)/page'
 export default function RootLayout({
   children,
 }: {
@@ -15,6 +15,7 @@ export default function RootLayout({
       <head />
       <body>
         <NextUIProvider>
+          <Navb/>
         {children}
         </NextUIProvider>
       </body>
