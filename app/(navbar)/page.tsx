@@ -10,7 +10,7 @@ export default function Navb() {
         <Navbar.Content hideIn="xs" variant="highlight-rounded">
           <Navbar.Link href="#">Home </Navbar.Link>
           <Navbar.Link href="/about">About</Navbar.Link>
-          <Navbar.Link href="#">Donate</Navbar.Link>
+          <Navbar.Link href="/donate">Donate</Navbar.Link>
           <Navbar.Link href="#">Activities</Navbar.Link>
           
         </Navbar.Content>

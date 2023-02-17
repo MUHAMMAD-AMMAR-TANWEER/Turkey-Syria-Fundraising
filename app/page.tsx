@@ -45,7 +45,7 @@ Paynow
 
       <SubCard />
       <Card5 />
-      <CryptoPayment/>
+    <CryptoPayment/>
     </div>
       )
 }
